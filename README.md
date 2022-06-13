@@ -4,20 +4,30 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### Start WebApi Server/Client
 
-1. Runs the web api
+1. Runs the web api server
    Execute the web api project directly by Ctrl+F5
    Base Url of web api after runs: https://localhost:44379
    Swagger: https://localhost:44379/swagger/index.html
 
    Runs unit tests from TestProject
 
-2. Runs client (Please run web api server before run client)
+2. Runs client
+
+   Runs npm i to restore package for client for the first time
+
+   To run without web api server (Not able to post request through local server yet)
+   Modify .env file, set REACT_APP_BASE_URL="http://localhost:3333", point to json server endpoint
+
+   open terminal: yarn server
+   open another terminal: yarn start
+
+   To run with web api server, runs web api server first, and then
+   open terminal
    yarn start
 
-   Unit test: yarn test
+   Modify .env file, set REACT_APP_BASE_URL="https://localhost:44379/api/Products" , point to web api server endpoint
 
-   config: .env file
-   REACT_APP_BASE_URL=web api base url
+   Unit test: yarn test
 
 ## Available Scripts
 
