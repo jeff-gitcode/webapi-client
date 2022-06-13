@@ -1,0 +1,271 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducers/fetch products should handle ADD_QUANTITY 1`] = `
+Object {
+  "addedItems": Array [
+    Object {
+      "id": 1,
+      "price": 290.9,
+      "quantity": 2,
+      "title": "Casaco maneiro",
+    },
+  ],
+  "complete": false,
+  "error": "",
+  "items": Array [
+    Object {
+      "id": 1,
+      "price": 290.9,
+      "quantity": 2,
+      "title": "Casaco maneiro",
+    },
+  ],
+  "shipping": 0,
+  "total": 581.8,
+}
+`;
+
+exports[`reducers/fetch products should handle ADD_TO_CART 1`] = `
+Object {
+  "addedItems": Array [
+    Object {
+      "id": 1,
+      "price": 290.9,
+      "quantity": 1,
+      "title": "Casaco maneiro",
+    },
+  ],
+  "complete": false,
+  "error": "",
+  "items": Array [
+    Object {
+      "id": 1,
+      "price": 290.9,
+      "quantity": 1,
+      "title": "Casaco maneiro",
+    },
+  ],
+  "shipping": 0,
+  "total": 290.9,
+}
+`;
+
+exports[`reducers/fetch products should handle CHANGE_CURRENCY 1`] = `
+Object {
+  "addedItems": Array [
+    Object {
+      "id": 1,
+      "price": 581.8,
+      "quantity": 1,
+      "title": "Casaco maneiro",
+    },
+  ],
+  "complete": false,
+  "error": "",
+  "items": Array [
+    Object {
+      "id": 1,
+      "price": 290.9,
+      "quantity": 2,
+      "title": "Casaco maneiro",
+    },
+  ],
+  "shipping": 10,
+  "total": 581.8,
+}
+`;
+
+exports[`reducers/fetch products should handle CHECKOUT_FAILURE 1`] = `
+Object {
+  "addedItems": Array [],
+  "complete": true,
+  "error": "checkoutFailure: error",
+  "items": Array [],
+  "shipping": 0,
+  "total": -10,
+}
+`;
+
+exports[`reducers/fetch products should handle CHECKOUT_SUCCESS 1`] = `
+Object {
+  "addedItems": Array [],
+  "complete": true,
+  "error": "",
+  "items": Array [
+    Object {
+      "id": 1,
+      "price": 290.9,
+      "quantity": 2,
+      "title": "Casaco maneiro",
+    },
+  ],
+  "shipping": 0,
+  "total": -10,
+}
+`;
+
+exports[`reducers/fetch products should handle FETCH_PRODUCTS 1`] = `
+Object {
+  "addedItems": Array [],
+  "complete": false,
+  "error": "",
+  "items": Array [],
+  "shipping": 0,
+  "total": 0,
+}
+`;
+
+exports[`reducers/fetch products should handle FETCH_PRODUCTS_FAILURE 1`] = `
+Object {
+  "addedItems": Array [],
+  "complete": true,
+  "error": "fetchProductsFailure: error",
+  "items": Array [],
+  "shipping": 0,
+  "total": -10,
+}
+`;
+
+exports[`reducers/fetch products should handle FETCH_PRODUCTS_SUCCCESS 1`] = `
+Object {
+  "addedItems": Array [],
+  "complete": false,
+  "error": "",
+  "items": Array [
+    Object {
+      "id": 1,
+      "price": 290.9,
+      "quantity": 0,
+      "title": "Casaco maneiro",
+    },
+  ],
+  "shipping": 0,
+  "total": 0,
+}
+`;
+
+exports[`reducers/fetch products should handle REMOVE_ITEM 1`] = `
+Object {
+  "addedItems": Array [],
+  "complete": false,
+  "error": "",
+  "items": Array [
+    Object {
+      "id": 1,
+      "price": 290.9,
+      "quantity": 2,
+      "title": "Casaco maneiro",
+    },
+  ],
+  "shipping": 0,
+  "total": -10,
+}
+`;
+
+exports[`reducers/fetch products should handle RESET_SHOP 1`] = `
+Object {
+  "addedItems": Array [],
+  "complete": false,
+  "error": "",
+  "items": Array [],
+  "shipping": 0,
+  "total": 0,
+}
+`;
+
+exports[`reducers/fetch products should handle SHIPPINGCOST_FAILURE 1`] = `
+Object {
+  "addedItems": Array [],
+  "complete": true,
+  "error": "shippingCostFailure: error",
+  "items": Array [],
+  "shipping": 0,
+  "total": -10,
+}
+`;
+
+exports[`reducers/fetch products should handle SHIPPINGCOST_SUCCESS 1`] = `
+Object {
+  "addedItems": Array [
+    Object {
+      "id": 1,
+      "price": 290.9,
+      "quantity": 1,
+      "title": "Casaco maneiro",
+    },
+  ],
+  "complete": false,
+  "error": "",
+  "items": Array [
+    Object {
+      "id": 1,
+      "price": 290.9,
+      "quantity": 2,
+      "title": "Casaco maneiro",
+    },
+  ],
+  "shipping": 10,
+  "total": 300.9,
+}
+`;
+
+exports[`reducers/fetch products should handle SUB_QUANTITY 1`] = `
+Object {
+  "addedItems": Array [
+    Object {
+      "id": 1,
+      "price": 290.9,
+      "quantity": 1,
+      "title": "Casaco maneiro",
+    },
+  ],
+  "complete": false,
+  "error": "",
+  "items": Array [
+    Object {
+      "id": 1,
+      "price": 290.9,
+      "quantity": 2,
+      "title": "Casaco maneiro",
+    },
+  ],
+  "shipping": 0,
+  "total": 290.9,
+}
+`;
+
+exports[`reducers/fetch products should handle SUB_SHIPPING 1`] = `
+Object {
+  "addedItems": Array [
+    Object {
+      "id": 1,
+      "price": 581.8,
+      "quantity": 1,
+      "title": "Casaco maneiro",
+    },
+  ],
+  "complete": false,
+  "error": "",
+  "items": Array [
+    Object {
+      "id": 1,
+      "price": 290.9,
+      "quantity": 2,
+      "title": "Casaco maneiro",
+    },
+  ],
+  "shipping": 0,
+  "total": 571.8,
+}
+`;
+
+exports[`reducers/fetch products should return the initial state 1`] = `
+Object {
+  "addedItems": Array [],
+  "complete": false,
+  "error": "",
+  "items": Array [],
+  "shipping": 0,
+  "total": 0,
+}
+`;
